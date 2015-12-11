@@ -9,6 +9,9 @@
             </button>
             <a class="navbar-brand" href="{{pathFor 'postsList'}}">HackerNews</a>
             <div class="collapse navbar-collapse" id="navigation">
+                <ul class="nav navbar-nav">
+                    <li><a href="{{pathFor 'postSubmit'}}">创建</a></li>
+                </ul>
                 <ul class="nav navbar-nav navbar-right">
                     {{> atNavButton}}
                 </ul>
