@@ -20,3 +20,13 @@ insecure                # Allow all DB writes from clients (for prototyping)
 twbs:bootstrap
 iron:router
 sacha:spin
+accounts-password
+msavin:mongol
+useraccounts:bootstrap
+useraccounts:iron-routing
+
+
+accounts-weibo
+leonzhang1109:accounts-wechat
+leonzhang1109:accounts-qq
+service-configuration
