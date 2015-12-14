@@ -19,6 +19,7 @@ Template.postSubmit.events({
 
             Router.go('postPage', {_id: result._id});
         });
-
+        // 延时补偿演示
+        // Router.go('postsList');
     }
 });
